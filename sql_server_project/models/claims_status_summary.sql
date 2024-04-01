@@ -1,3 +1,5 @@
+{{ config(materialized='table') }}
+
 SELECT
     claim_status,
     COUNT(*) AS total_claims

@@ -1,3 +1,5 @@
+{{ config(materialized='table') }}
+
 WITH claims_data AS (
     SELECT
         c.claim_id,

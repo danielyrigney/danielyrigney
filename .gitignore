@@ -1,5 +1,5 @@
 azure-pipelines-1.ymls
-
+dbt_packages
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
